@@ -10,8 +10,8 @@ public class SquareTable {
 
         if (num <= 0 || num < 31) {
             System.out.println("Table of power of 2");
-            for (int j = 1; j <= num; j++) {
-                System.out.println((int) Math.pow(2, j));
+            for (int i = 1; i <= num; i++) {
+                System.out.println((int) Math.pow(2, i));
             }
         }
         else {
