@@ -7,10 +7,7 @@ class HarmonicNumbers{
     public static void main(String args[])
     {
 
-        Scanner in = new Scanner(System.in);
-        System.out.print("Enter Number: ");
-
-        int num = in.nextInt();
+        int num = Integer.parseInt(args[0]);
         double result = 0.0;
         System.out.println("The harmonic series is: ");
 
