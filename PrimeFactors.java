@@ -1,6 +1,6 @@
 package com.bridgelabz.demo;
-import java.util.Scanner;
-public class Factors {
+
+public class PrimeFactors {
     public static void main(String[] args) {
         int i;
         int n = Integer.parseInt(args[0]);
